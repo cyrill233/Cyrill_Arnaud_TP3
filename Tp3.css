@@ -1,7 +1,10 @@
 body{
     background-image: url("img_background.jpg");
-
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
 }
 #text_accueil{
     color: aliceblue;
+    position: center;
 }
