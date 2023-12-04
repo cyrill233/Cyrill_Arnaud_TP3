@@ -9,14 +9,20 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    overflow-y: scroll;
 }
 
 h1 {
     color: white;
+    font-size: 44px;
 }
-
+h2{
+    font-size: 30px;
+}
 p {
     color: white;
+    font-size: 24px;
+    text-align: justify;
 }
 
 header {
@@ -30,7 +36,7 @@ header {
 
 
 main {
-    height: 10000px;
+    height: 100%;
     background-image: url(wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,8 +47,17 @@ main {
 
 section{
     position: relative;
-    top: 50px;
-    left: 100px
+    top: 75px;
+    left: 105px;
+    display: flex;
+    
+}
+
+.text2 {
+    position: relative;
+    margin-left: 300px;
+    margin-top: -50px;
+    line-height: 2;
 }
 
 
