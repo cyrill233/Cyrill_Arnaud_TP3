@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="contactcss.css" type="text/css">
 </head>
+
 <body>
-    
+    <header><!--Bar de service-->
+        <table>
+            <tr>
+                <th>
+                    <a href="Accueil.html">
+                        <img src="warhammer.jpg" alt="WarHammer logo">
+                    </a>
+                </th>
+                <th>
+                    <a href="pagecontact.html">
+                        <p>CONTACT</p>
+                    </a>
+                </th>
+                <th>
+                    <a href="a.propos.html">
+                        <p>À PROPOS</p>
+                    </a>
+                </th>
+                <th>
+                    <a href="Les Races.html">
+                        <p>LES RACES</p>
+                    </a>
+                </th>
+            </tr>
+        </table>
+    </header>
+
+    <div class="introduction">
+        <h1>
+            Contactez-nous
+        </h1>
+        <p>
+            Merci de votre intérêt pour Warhammer 40000. veuillez remplir le formulaire
+            <br>ci-dessous pour poser votre question ou demander des informations sur ce sujet
+        </p>
+    </div>
+    <div class="form">
+        <form action="formulaire.html">
+
+            <label for="Nom">Nom complet : </label><br><br>
+            <input class="case1" type="text" id="Nom" name="Nom" placeholder="   Nom*"><br><br>
+            <label for="Courriel">Courriel : </label><br><br>
+            <input class="case2" type="text" id="Courriel" name="Courriel" placeholder="  Courriel*"><br><br>
+            <label for="Age">Âge : </label><br><br>
+            <input class="case3" type="text" id="Age" name="Age" placeholder="   Âge*"><br><br>
+
+            <p>
+                Genre :
+                <input class="case4" type="radio" name="genre" value="homme" id="homme" required>
+                <label for="homme">Homme</label>
+
+                <input class="case4" type="radio" name="genre" value="femme" id="femme" required>
+                <label for="femme">Femme</label>
+
+                <input class="case4" type="radio" name="genre" value="autre" id="autre" required>
+                <label for="autre">Autre</label>
+            </p>
+
+            <label for="dob">Date de naissance : </label>
+            <input class="case5" type="date" id="dob" name="dob" required><br><br>
+
+            <label for="Addresse">Addresse : </label><br><br>
+            <input class="case6" type="text" id="Addresse" name="Addresse" placeholder="   Addresse*"><br><br>
+
+            <label for="Téléphone">Téléphone : </label><br><br>
+            <input class="case7" type="text" id="Téléphone" name="Téléphone" placeholder="   Téléphone*"><br><br>
+
+
+            <div class="cote">
+                <label for="feedback">Questions / Demandes : </label><br><br>
+                <textarea name="feedback" id="feedback" rows="7" placeholder="   Écrivez ici*">
+                </textarea>
+            </div>
+
+            <br>
+            <input class="sub" type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <br>
+    <div class="cote2">
+        <h1>
+            Informations sur nous
+        </h1>
+
+        <p>
+            10555 Ave Bois-de-Boulogne<br>
+            Montréal, Quebec<br>
+            H4N 1L4, Canada<br><br>
+
+            Téléphone: 514-332-3000<br>
+            Courriel : info@bdeb.qc.ca<br>
+            Administrateurs : Olano Cyrill et Simard-Desmeules, Arnaud
+
+        </p>
+    </div>
+
 </body>
+
 </html>
