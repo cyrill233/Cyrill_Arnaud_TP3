@@ -17,9 +17,12 @@ h1 {
     color: white;
     font-size: 40px;
 }
-h2{
+
+h2 {
     font-size: 27px;
 }
+
+/*Descriptions des informations de text*/
 p {
     color: white;
     font-size: 24px;
@@ -28,6 +31,7 @@ p {
 }
 
 header {
+    /*La bar de service*/
     background-color: black;
     height: 65px;
     display: flex;
@@ -43,25 +47,38 @@ table {
 th {
     padding: 10px;
 }
-.text1{
+
+.text1 {
     margin-left: 30px;
 }
+
 main {
     height: 100%;
-    background-image: url(wallpaperflare.com_wallpaper.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     color: white;
 }
 
-section{
+/*Pour la transparence de l'image backround*/
+main::before {
+    content: "";
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    mix-blend-mode: soft-light;
+    opacity: 0.8;
+}
+
+section {
     position: relative;
     top: 150px;
     left: 105px;
     display: flex;
-    
 }
 
 .text2 {
@@ -69,20 +86,21 @@ section{
     margin-left: 300px;
     margin-top: -110px;
 }
+
 .text3 {
     position: relative;
     margin-left: 100px;
     margin-top: -50px;
 }
+
 .titre2 {
     position: relative;
     top: -650px;
     left: 1100px;
-    
+
 }
 
-.info{
+.info {
     margin-left: 100px;
     margin-top: -175px;
 }
-
