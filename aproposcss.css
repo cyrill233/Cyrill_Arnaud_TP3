@@ -34,12 +34,15 @@ header {
     align-items: center;
     flex-direction: row;
 }
-.bar{
-    margin-left: 50px;
-    color: white;
-    font-size: 40px;
+
+table {
+    width: 100%;
+    text-align: center;
 }
 
+th {
+    padding: 10px;
+}
 .text1{
     margin-left: 30px;
 }
