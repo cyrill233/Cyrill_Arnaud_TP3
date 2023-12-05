@@ -5,7 +5,7 @@
     justify-content: center;
     width: 100%;
   }
-  .page-d-accueil .component {
+  .page-d-accueil .composante {
     position: absolute;
     width: 1440px;
     height: 105px;
@@ -13,7 +13,7 @@
     left: 0;
   }
  
-  .page-d-accueil .overlap-group {
+  .page-d-accueil .groupe_superpose {
     position: relative;
     height: 3101px;
     background-image: url(./img/image-13.png);
@@ -21,7 +21,7 @@
     background-position: 50% 50%;
   }
  
-  .page-d-accueil .text-wrapper {
+  .page-d-accueil .Contact {
     position: absolute;
     width: 174px;
     top: 34px;
@@ -36,7 +36,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .text-wrapper-2 {
+  .page-d-accueil .A_propos {
     position: absolute;
     width: 181px;
     top: 34px;
@@ -50,7 +50,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .war-hammer-image {
+  .page-d-accueil .image_warhammer {
     position: absolute;
     width: 111px;
     height: 105px;
@@ -59,7 +59,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .text-wrapper-3 {
+  .page-d-accueil .Les_races {
     width: 192px;
     top: 34px;
     left: 925px;
@@ -73,7 +73,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .overlap {
+  .page-d-accueil .superposition {
     position: absolute;
     width: 1458px;
     height: 1760px;
@@ -81,7 +81,7 @@
     left: -9px;
   }
  
-  .page-d-accueil .overlap-2 {
+  .page-d-accueil .superposition_2 {
     position: absolute;
     width: 1458px;
     height: 1760px;
@@ -89,7 +89,7 @@
     left: 0;
   }
  
-  .page-d-accueil .noir {
+  .page-d-accueil .Noir {
     position: absolute;
     width: 1458px;
     height: 35px;
@@ -97,13 +97,13 @@
     left: 0;
   }
  
-  .page-d-accueil .overlap-3 {
+  .page-d-accueil .superposition_3 {
     position: relative;
     height: 1849px;
     top: -491px;
   }
  
-  .page-d-accueil .noir-2 {
+  .page-d-accueil .Noir_1 {
     position: absolute;
     width: 35px;
     height: 1458px;
@@ -113,7 +113,7 @@
     transform: rotate(-90deg);
   }
  
-  .page-d-accueil .noir-3 {
+  .page-d-accueil .Noir_2 {
     position: absolute;
     width: 35px;
     height: 1455px;
@@ -123,7 +123,7 @@
     transform: rotate(-90deg);
   }
  
-  .page-d-accueil .noir-4 {
+  .page-d-accueil .Noir_3 {
     position: absolute;
     width: 35px;
     height: 1814px;
@@ -132,7 +132,7 @@
     background-color: #000000;
   }
  
-  .page-d-accueil .noir-5 {
+  .page-d-accueil .Noir_4 {
     position: absolute;
     width: 35px;
     height: 1440px;
@@ -142,7 +142,7 @@
     transform: rotate(-90deg);
   }
  
-  .page-d-accueil .noir-6 {
+  .page-d-accueil .Noir_5 {
     position: absolute;
     width: 35px;
     height: 1440px;
@@ -152,7 +152,7 @@
     transform: rotate(-90deg);
   }
  
-  .page-d-accueil .img {
+  .page-d-accueil .Img_noir {
     position: absolute;
     width: 1440px;
     height: 35px;
@@ -174,7 +174,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .text-wrapper-4 {
+  .page-d-accueil .Les_taus {
     top: 852px;
     left: 1039px;
     font-family: "Abhaya Libre-Regular", Helvetica;
@@ -188,7 +188,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .craftworld_eldar_image {
+  .page-d-accueil .Craftworld_eldar_image {
     position: absolute;
     width: 702px;
     height: 397px;
@@ -197,7 +197,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .necron-image {
+  .page-d-accueil .Necron_image {
     position: absolute;
     width: 702px;
     height: 381px;
@@ -206,7 +206,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .tau-image {
+  .page-d-accueil .Tau_image {
     position: absolute;
     width: 702px;
     height: 377px;
@@ -215,7 +215,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .tyranid-image {
+  .page-d-accueil .Tyranid_image {
     position: absolute;
     width: 702px;
     height: 461px;
@@ -224,7 +224,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .chao-image {
+  .page-d-accueil .Chao_image {
     position: absolute;
     width: 703px;
     height: 377px;
@@ -233,7 +233,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .eldar-noir-logo {
+  .page-d-accueil .Eldar_noir_logo {
     position: absolute;
     width: 703px;
     height: 381px;
@@ -242,7 +242,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .text-wrapper-5 {
+  .page-d-accueil .imperium {
     position: absolute;
     top: 0;
     left: 274px;
@@ -256,7 +256,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .text-wrapper-6 {
+  .page-d-accueil .Les_eldars_noirs {
     position: absolute;
     top: 436px;
     left: 247px;
@@ -270,7 +270,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .imperium-image {
+  .page-d-accueil .Imperium_image {
     position: absolute;
     width: 703px;
     height: 396px;
@@ -279,7 +279,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .craftworld-eldar-2 {
+  .page-d-accueil .Craftworld_eldar_logo {
     position: absolute;
     width: 280px;
     height: 319px;
@@ -288,7 +288,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .text-wrapper-7 {
+  .page-d-accueil .Les_necrons {
     top: 436px;
     left: 1011px;
     font-family: "Abhaya Libre-Regular", Helvetica;
@@ -302,7 +302,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .text-wrapper-8 {
+  .page-d-accueil .Le_chao {
     position: absolute;
     top: 852px;
     left: 251px;
@@ -316,7 +316,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .text-wrapper-9 {
+  .page-d-accueil .Les_peaux_vertes {
     position: absolute;
     top: 1256px;
     left: 242px;
@@ -330,7 +330,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .text-wrapper-10 {
+  .page-d-accueil .Les_tyranides {
     top: 1259px;
     left: 1005px;
     font-family: "Abhaya Libre-Regular", Helvetica;
@@ -344,7 +344,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .imperium-logo {
+  .page-d-accueil .Imperium_logo {
     position: absolute;
     width: 533px;
     height: 217px;
@@ -353,7 +353,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .necrons-logo {
+  .page-d-accueil .Necron_logo {
     position: absolute;
     width: 243px;
     height: 288px;
@@ -362,7 +362,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .eldars-noirs-logo {
+  .page-d-accueil .Eldar_noir_logo {
     position: absolute;
     width: 274px;
     height: 327px;
@@ -371,7 +371,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .tau-logo {
+  .page-d-accueil .Tau_logo {
     position: absolute;
     width: 225px;
     height: 224px;
@@ -380,7 +380,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .tyranide-logo {
+  .page-d-accueil .Tyranid_logo {
     position: absolute;
     width: 280px;
     height: 271px;
@@ -389,7 +389,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .chao-logo {
+  .page-d-accueil .Chao_logo {
     position: absolute;
     width: 240px;
     height: 240px;
@@ -398,7 +398,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .overlap-4 {
+  .page-d-accueil .Superposition_4 {
     position: absolute;
     width: 703px;
     height: 461px;
@@ -406,7 +406,7 @@
     left: 9px;
   }
  
-  .page-d-accueil .les-peaux-vertes {
+  .page-d-accueil .Peaux_vertes_image {
     position: absolute;
     width: 703px;
     height: 461px;
@@ -415,7 +415,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .peaux-vertes-logo {
+  .page-d-accueil .Peaux_vertes_logo {
     position: absolute;
     width: 274px;
     height: 292px;
@@ -424,7 +424,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .warhammer-wrapper {
+  .page-d-accueil .Warhammer_wrap {
     position: absolute;
     width: 1397px;
     height: 339px;
@@ -434,7 +434,7 @@
     border-radius: 54px;
   }
  
-  .page-d-accueil .warhammer {
+  .page-d-accueil .Warhammer {
     position: absolute;
     width: 1375px;
     top: 42px;
@@ -447,7 +447,7 @@
     line-height: normal;
   }
  
-  .page-d-accueil .map-galaxie {
+  .page-d-accueil .Map_galaxie {
     position: absolute;
     width: 920px;
     height: 560px;
@@ -456,7 +456,7 @@
     object-fit: cover;
   }
  
-  .page-d-accueil .text-wrapper-11 {
+  .page-d-accueil .Image_galaxie {
     position: absolute;
     top: 644px;
     left: 367px;
@@ -469,7 +469,7 @@
     white-space: nowrap;
   }
  
-  .page-d-accueil .logo-warhammer {
+  .page-d-accueil .Logo_warhammer {
     position: absolute;
     width: 829px;
     height: 162px;
