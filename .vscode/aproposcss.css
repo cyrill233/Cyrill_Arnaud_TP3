@@ -11,6 +11,7 @@ body {
     overflow: hidden;
     /*Ajouter une barre de défilement  */
     overflow-y: scroll;
+    font-family: "Abhaya Libre";
 }
 
 h1 {
@@ -30,6 +31,11 @@ p {
     line-height: 2;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     /*La bar de service*/
     background-color: black;
@@ -46,6 +52,7 @@ table {
 
 th {
     padding: 10px;
+    font-size: 40px;
 }
 
 .text1 {

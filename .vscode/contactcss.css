@@ -11,6 +11,7 @@ body {
     overflow: hidden;
     /*Ajouter une barre de défilement  */
     overflow-y: scroll;
+    font-family: "Abhaya Libre";
 }
 
 h1 {
@@ -30,6 +31,11 @@ p {
     line-height: 2;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     /*La bar de service*/
     background-color: black;
@@ -46,63 +52,89 @@ table {
 
 th {
     padding: 10px;
+    font-size: 40px;
 }
-.introduction{
+
+.introduction {
     margin-left: 30px;
 }
-label{
+
+label {
     color: white;
     font-size: 24px;
 }
-input{
+
+input {
     background-color: rgb(180, 178, 178);
 }
 
-.case1{
+/*Pour des asterisque rouge*/
+.asterisque::after {
+    content: '*';
+    color: red;
+    margin-left: 4px;
+    font-size: 20px;
+}
+
+/*Modifier le wdith et height des case de réponse*/
+.case1 {
     width: 700px;
     height: 26px;
 }
-.case2{
+
+.case2 {
     width: 700px;
     height: 26px;
 }
-.case3{
+
+.case3 {
     width: 250px;
     height: 26px;
 }
-.case4{
+
+.case4 {
     margin-left: 60px;
 }
-.case5{
+
+.case5 {
     margin-left: 10px;
     width: 200px;
     height: 26px;
 }
-.case6{
+
+.case6 {
     width: 700px;
     height: 26px;
 }
-.case7{
+
+.case7 {
     width: 700px;
     height: 26px;
 }
+
 .genre {
     display: flex;
     gap: 10px;
 }
-.form{
+
+.form {
     margin-left: 30px;
 }
-.cote{
+
+.cote {
     margin-left: 875px;
     margin-top: -800px;
 }
-textarea{
+
+/*case pour questions / demandes*/
+textarea {
     background-color: rgb(180, 178, 178);
     width: 700px;
     height: 250px;
 }
-.sub{
+
+/*Button envoyer*/
+.sub {
     margin-left: 875px;
     width: 120px;
     height: 35px;
@@ -110,6 +142,44 @@ textarea{
     color: white;
     font-size: 18px;
 }
-.cote2{
+
+.cote2 {
     margin-left: 907px;
+
+    /*Modifier les icons*/
+}
+
+.fa-brands.fa-twitter {
+    font-size: 50px;
+    color: black;
+}
+
+.fa-brands.fa-facebook {
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
+}
+
+.fa-brands.fa-square-instagram {
+    font-size: 55px;
+    margin-left: 50px;
+    color: black;
+}
+
+.fa-brands.fa-youtube {
+    font-size: 55px;
+    margin-left: 50px;
+    color: black;
+}
+
+.fa-solid.fa-globe {
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
+}
+
+.fa-solid.fa-envelope {
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
 }

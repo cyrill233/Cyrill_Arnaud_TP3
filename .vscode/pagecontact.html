@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contactez-nous</title>
     <link rel="stylesheet" href="contactcss.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -14,28 +15,29 @@
             <tr>
                 <th>
                     <a href="Accueil.html">
-                        <img src="warhammer.jpg" alt="WarHammer logo">
+                        <img src="warhammer.jpg" alt="WarHammer logo" title="logo du bar de service" id="logo">
                     </a>
                 </th>
                 <th>
                     <a href="pagecontact.html">
-                        <p>CONTACT</p>
+                        CONTACT
                     </a>
                 </th>
                 <th>
                     <a href="a.propos.html">
-                        <p>À PROPOS</p>
+                        À PROPOS
                     </a>
                 </th>
                 <th>
                     <a href="Les Races.html">
-                        <p>LES RACES</p>
+                        LES RACES
                     </a>
                 </th>
             </tr>
         </table>
     </header>
 
+    <!--text d'introduction-->
     <div class="introduction">
         <h1>
             Contactez-nous
@@ -45,50 +47,57 @@
             <br>ci-dessous pour poser votre question ou demander des informations sur ce sujet
         </p>
     </div>
-    <div class="form">
-        <form action="formulaire.html">
 
-            <label for="Nom">Nom complet : </label><br><br>
-            <input class="case1" type="text" id="Nom" name="Nom" placeholder="   Nom*" required><br><br>
-            <label for="Courriel">Courriel : </label><br><br>
-            <input class="case2" type="text" id="Courriel" name="Courriel" placeholder="  Courriel*" required><br><br>
-            <label for="Age">Âge : </label><br><br>
+    <!--Début du formulaire-->
+    <div class="form">
+        <form action="formulaire.html" method="post">
+
+            <label class="asterisque" for="Nom">Nom complet</label><br><br>
+            <input class="case1" type="text" id="Nom" name="Nom" placeholder="   Nom*"
+                required><br><br><!--Placeholder pour l'intérieur et c'est obligatoire-->
+            <label class="asterisque" for="Courriel">Courriel</label><br><br>
+            <input class="case1" type="text" id="Courriel" name="Courriel" placeholder="   Courriel*" required><br><br>
+            <label class="asterisque" for="Age">Âge</label><br><br>
             <input class="case3" type="text" id="Age" name="Age" placeholder="   Âge*" required><br><br>
 
+            <!--Formulaire avec button-->
             <p>
                 Genre :
-                <input class="case4" type="radio" name="genre" value="homme" id="homme" required>
+                <input class="case4" type="radio" name="genre" value="homme" id="homme">
                 <label for="homme">Homme</label>
 
-                <input class="case4" type="radio" name="genre" value="femme" id="femme" required>
+                <input class="case4" type="radio" name="genre" value="femme" id="femme">
                 <label for="femme">Femme</label>
 
-                <input class="case4" type="radio" name="genre" value="autre" id="autre" required>
+                <input class="case4" type="radio" name="genre" value="autre" id="autre">
                 <label for="autre">Autre</label>
             </p>
-
-            <label for="dob">Date de naissance : </label>
+            <!--Formulaire avec calendrier-->
+            <label class="asterisque" for="dob">Date de naissance</label>
             <input class="case5" type="date" id="dob" name="dob" required><br><br>
 
-            <label for="Addresse">Addresse : </label><br><br>
+            <label class="asterisque" for="Addresse">Addresse</label><br><br>
             <input class="case6" type="text" id="Addresse" name="Addresse" placeholder="   Addresse*" required><br><br>
 
-            <label for="Téléphone">Téléphone : </label><br><br>
-            <input class="case7" type="text" id="Téléphone" name="Téléphone" placeholder="   Téléphone*" required><br><br>
+            <label class="asterisque" for="Téléphone">Téléphone</label><br><br>
+            <input class="case7" type="text" id="Téléphone" name="Téléphone" placeholder="   Téléphone*"
+                required><br><br>
 
-
+            <!--Formulaire avec text-->
             <div class="cote">
                 <label for="feedback">Questions / Demandes : </label><br><br>
                 <textarea name="feedback" id="feedback" rows="7" placeholder=" Écrivez ici*">
                 </textarea>
             </div>
 
+            <!--Button d'envoi-->
             <br>
             <input class="sub" type="submit" value="Envoyer">
         </form>
     </div>
 
     <br>
+    <!--Début des informations sur nous-->
     <div class="cote2">
         <h1>
             Informations sur nous
@@ -104,8 +113,33 @@
             Administrateurs : Olano Cyrill et Simard-Desmeules, Arnaud
 
         </p>
-    </div>
 
+        <!--Les icons -->
+        <a href="https://twitter.com/collegebdb" target="_blank"><!--Liens-->
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="https://www.facebook.com/college.de.bois.de.boulogne" target="_blank"><!--Liens-->
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/collegebdeb/" target="_blank"><!--Liens-->
+            <i class="fa-brands fa-square-instagram"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@CollegedeBoisdeBoulogne" target="_parent"><!--Liens-->
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <a href="https://www.bdeb.qc.ca/" target="_blank"><!--Liens-->
+            <i class="fa-solid fa-globe"></i>
+        </a>
+
+        <a href="https://www.bdeb.qc.ca/nous-joindre/" target="_blank"><!--Liens-->
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <br><br><br>
 </body>
 
 </html>
