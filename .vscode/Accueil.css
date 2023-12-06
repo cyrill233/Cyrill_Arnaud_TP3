@@ -1,3 +1,4 @@
+/*superpose la page sur un fond blanc*/
 .page_daccueil {
     background-color: #ffffff;
     display: flex;
@@ -12,6 +13,7 @@
     height: 3101px;
     position: relative;
   }
+  /*creation de la barre d'accueil*/
   .page_daccueil .composante {
     position: absolute;
     width: 1440px;
@@ -19,11 +21,11 @@
     top: 0;
     left: 0;
   }
- 
-  .page_daccueil .groupe_superpose {
+ /*ajoute le fond d'ecran */
+  .page_daccueil .background {
     position: relative;
     height: 3101px;
-    background-image: url("Background.png");
+    background-image: url("img/Background.png");
     background-size: cover;
     background-position:  50%;
   }
@@ -81,7 +83,7 @@
     line-height: normal;
     white-space: nowrap;
   }
- 
+ /*ajuste les images ensemble au bon endroit*/
   .page_daccueil .superposition {
     position: absolute;
     width: 1458px;
@@ -97,7 +99,7 @@
     top: 0;
     left: 0;
   }
- 
+ /*place les bandes noirs au bon endroit*/
   .page_daccueil .Noir {
     position: absolute;
     width: 1458px;
@@ -111,7 +113,7 @@
     height: 1849px;
     top: -491px;
   }
- 
+ /*ajoute les bandes noirs*/
   .page_daccueil .Noir_1 {
     position: absolute;
     width: 35px;
@@ -176,8 +178,8 @@
     top: 1318px;
     left: 9px;
   }
- 
-  .page_daccueil .p {
+ /*ajoute le titre des races*/
+  .page_daccueil .Craftworld_eldar {
     position: absolute;
     top: 0;
     left: 861px;
@@ -204,61 +206,6 @@
     line-height: normal;
     white-space: nowrap;
   }
- 
-  .page_daccueil .Craftworld_eldar_image {
-    position: absolute;
-    width: 702px;
-    height: 397px;
-    top: 41px;
-    left: 747px;
-    object-fit: cover;
-  }
- 
-  .page_daccueil .Necron_image {
-    position: absolute;
-    width: 702px;
-    height: 381px;
-    top: 472px;
-    left: 747px;
-    object-fit: cover;
-  }
- 
-  .page_daccueil .Tau_image {
-    position: absolute;
-    width: 702px;
-    height: 377px;
-    top: 888px;
-    left: 747px;
-    object-fit: cover;
-  }
- 
-  .page_daccueil .Tyranid_image {
-    position: absolute;
-    width: 702px;
-    height: 461px;
-    top: 1299px;
-    left: 747px;
-    object-fit: cover;
-  }
- 
-  .page_daccueil .Chao_image {
-    position: absolute;
-    width: 703px;
-    height: 377px;
-    top: 888px;
-    left: 9px;
-    object-fit: cover;
-  }
- 
-  .page_daccueil .Eldar_noir_image {
-    position: absolute;
-    width: 703px;
-    height: 381px;
-    top: 472px;
-    left: 9px;
-    object-fit: cover;
-  }
- 
   .page_daccueil .imperium {
     position: absolute;
     top: 0;
@@ -286,25 +233,6 @@
     line-height: normal;
     white-space: nowrap;
   }
- 
-  .page_daccueil .Imperium_image {
-    position: absolute;
-    width: 703px;
-    height: 396px;
-    top: 41px;
-    left: 9px;
-    object-fit: cover;
-  }
- 
-  .page_daccueil .Craftworld_eldar_logo {
-    position: absolute;
-    width: 280px;
-    height: 319px;
-    top: 79px;
-    left: 963px;
-    object-fit: cover;
-  }
- 
   .page_daccueil .Les_necrons {
     top: 436px;
     left: 1011px;
@@ -360,6 +288,89 @@
     line-height: normal;
     white-space: nowrap;
   }
+  .page_daccueil .Craftworld_eldar_image {
+    position: absolute;
+    width: 702px;
+    height: 397px;
+    top: 41px;
+    left: 747px;
+    object-fit: cover;
+  }
+ /*ajoute l'image des races*/
+  .page_daccueil .Necron_image {
+    position: absolute;
+    width: 702px;
+    height: 381px;
+    top: 472px;
+    left: 747px;
+    object-fit: cover;
+  }
+ 
+  .page_daccueil .Tau_image {
+    position: absolute;
+    width: 702px;
+    height: 377px;
+    top: 888px;
+    left: 747px;
+    object-fit: cover;
+  }
+ 
+  .page_daccueil .Tyranid_image {
+    position: absolute;
+    width: 702px;
+    height: 461px;
+    top: 1299px;
+    left: 747px;
+    object-fit: cover;
+  }
+ 
+  .page_daccueil .Chao_image {
+    position: absolute;
+    width: 703px;
+    height: 377px;
+    top: 888px;
+    left: 9px;
+    object-fit: cover;
+  }
+ 
+  .page_daccueil .Eldar_noir_image {
+    position: absolute;
+    width: 703px;
+    height: 381px;
+    top: 472px;
+    left: 9px;
+    object-fit: cover;
+  }
+ 
+  
+ 
+  .page_daccueil .Imperium_image {
+    position: absolute;
+    width: 703px;
+    height: 396px;
+    top: 41px;
+    left: 9px;
+    object-fit: cover;
+  }
+  .page_daccueil .Peaux_vertes_image {
+    position: absolute;
+    width: 703px;
+    height: 461px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  /*ajoute les logos des races*/
+  .page_daccueil .Craftworld_eldar_logo {
+    position: absolute;
+    width: 280px;
+    height: 319px;
+    top: 79px;
+    left: 963px;
+    object-fit: cover;
+  }
+ 
+  
  
   .page_daccueil .Imperium_logo {
     position: absolute;
@@ -415,22 +426,6 @@
     object-fit: cover;
   }
  
-  .page_daccueil .Superposition_4 {
-    position: absolute;
-    width: 703px;
-    height: 461px;
-    top: 1299px;
-    left: 9px;
-  }
- 
-  .page_daccueil .Peaux_vertes_image {
-    position: absolute;
-    width: 703px;
-    height: 461px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
  
   .page_daccueil .Peaux_vertes_logo {
     position: absolute;
@@ -440,7 +435,14 @@
     left: 208px;
     object-fit: cover;
   }
- 
+  .page_daccueil .Superposition_4 {
+    position: absolute;
+    width: 703px;
+    height: 461px;
+    top: 1299px;
+    left: 9px;
+  }
+ /*ajoute le background du texte*/
   .page_daccueil .Warhammer_wrap {
     position: absolute;
     width: 1397px;
@@ -450,7 +452,7 @@
     background-color: #d9d9d9;
     border-radius: 54px;
   }
- 
+ /*ajoute le texte*/
   .warhammer {
     position: absolute;
     width: 1375px;
@@ -466,7 +468,7 @@
     background-color: #d9d9d9;
     border-radius: 25px ;
   }
- 
+ /*s'assure que le texte sur la map soit bien place*/
   .page_daccueil .Map_galaxie {
     position: absolute;
     width: 920px;
@@ -475,7 +477,7 @@
     left: 263px;
     object-fit: cover;
   }
- 
+ /*s'assure que l'image de la map soit bien place*/
   .page_daccueil .Image_galaxie {
     position: absolute;
     top: 644px;
@@ -488,7 +490,7 @@
     line-height: normal;
     white-space: nowrap;
   }
- 
+ /*place le logo warhammer*/
   .page_daccueil .Logo_warhammer {
     position: absolute;
     width: 829px;
