@@ -1,5 +1,5 @@
 body {
-    background-image: url("img_background.jpg");
+    background-image: url("img/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,7 +68,7 @@ main {
 /*Pour la transparence de l'image backround*/
 main::before {
     content: "";
-    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-image: url("img/wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
