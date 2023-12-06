@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400|Abhaya+Libre:400,700|Abel:400");
+/*viens ajuster le texte pour qu'il soit mieux aligne*/
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
