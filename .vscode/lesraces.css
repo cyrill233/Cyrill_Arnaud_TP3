@@ -28,7 +28,7 @@
     font-weight: 400;
     color: #ffffff;
     font-size: 70px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
@@ -134,7 +134,7 @@
     position: absolute;
     width: 1235px;
     top: 32px;
-    text-align: center;
+    text-align: left;
     left: 98px;
     font-family: "Abhaya Libre-Regular", Helvetica;
     font-weight: 400;
@@ -150,7 +150,7 @@
     position: absolute;
     width: 1235px;
     top: 350px;
-    text-align: center;
+    text-align: left;
     left: 98px;
     font-family: "Abhaya Libre-Regular", Helvetica;
     font-weight: 400;
@@ -165,7 +165,7 @@
     position: absolute;
     width: 1253px;
     top: 657px;
-    text-align: center;
+    text-align: left;
     left: 98px;
     font-family: "Abhaya Libre-Regular", Helvetica;
     font-weight: 400;
@@ -181,7 +181,7 @@
     width: 1259px;
     top: 877px;
     left: 86px;
-    text-align: center;
+    text-align: left;
     font-family: "Abhaya Libre-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
@@ -195,7 +195,7 @@
     position: absolute;
     width: 1269px;
     top: 1089px;
-    text-align: center;
+    text-align: left;
     left: 88px;
     font-family: "Abhaya Libre-Regular", Helvetica;
     font-weight: 400;
@@ -210,7 +210,7 @@
     position: absolute;
     width: 1270px;
     top: 1359px;
-    text-align: center;
+    text-align: left;
     left: 88px;
     font-family: "Abhaya Libre-Regular", Helvetica;
     font-weight: 400;
@@ -232,7 +232,7 @@
     font-size: 36px;
     letter-spacing: 0;
     line-height: normal;
-    text-align: center;
+    text-align: left;
     background-color: black; 
   }
   .les_races .Tyranides {
@@ -246,7 +246,7 @@
     font-size: 36px;
     letter-spacing: 0;
     line-height: normal;
-    text-align: center;
+    text-align: left;
 
   }
 
@@ -266,7 +266,7 @@
   }
   .les_races .Chao {
     position: absolute;
-    text-align: center;
+    text-align: left;
     width: 1259px;
     top: 1793px;
     left: 83px;
@@ -380,7 +380,7 @@
     font-weight: 400;
     color: #ffffff;
     font-size: 36px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
